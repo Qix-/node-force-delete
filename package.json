@@ -1,0 +1,32 @@
+{
+  "name": "force-delete",
+  "description": "Force-deletes a property from an object",
+  "version": "0.1.0",
+  "author": "Qix (http://github.com/qix-)",
+  "keywords": [
+    "delete",
+    "descriptor",
+    "force",
+    "object",
+    "property"
+  ],
+  "scripts": {
+    "pretest": "node_modules/.bin/jshint ./*.js",
+    "test": "node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/qix-/node-force-delete.git"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.17",
+    "mocha": "^2.2.5",
+    "should": "^7.0.1"
+  },
+  "dependencies": {
+    "bindings": "^1.2.1",
+    "jshint": "^2.8.0",
+    "nan": "^1.8.4"
+  }
+}
